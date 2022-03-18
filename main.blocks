@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="MC_tx^jRTEsf3{?M3E0b" x="0" y="0"><statement name="HANDLER"><block type="DFRobotMaqueenPlus_I2CInit" id="gYedhn)[bsLos|3`P!-`"/></statement></block><block type="device_button_event" id="Z#HanW$K@LI%EffeTQ4I" x="467" y="158"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_leds" id="vvf|N;.]2g8NiR5O}xaK"><field name="LEDS">`
+        . . # . . 
+        . # . . . 
+        # # # # # 
+        . # . . . 
+        . . # . .
+        `</field><next><block type="DFRobotMaqueenPlus_mototRun" id="cqTY-A[sn,Q;EcXv[}dL"><field name="index">Motors.M1</field><field name="direction">Dir.CW</field><value name="speed"><shadow type="math_number_minmax" id="w{8RuM`[h;|kDZ,x}:#V"><mutation min="0" max="255" label="Speed" precision="0"/><field name="SLIDER">50</field></shadow></value><next><block type="DFRobotMaqueenPlus_mototRun" id="=8kE{C8@bm?QIlpv6G=h"><field name="index">Motors.M2</field><field name="direction">Dir.CCW</field><value name="speed"><shadow type="math_number_minmax" id="qyT!zUXue0e(FS?5Mxgw"><mutation min="0" max="255" label="Speed" precision="0"/><field name="SLIDER">50</field></shadow></value></block></next></block></next></block></statement></block><block type="device_button_event" id="wh`r+x+8e(XavQ6SY`Y," x="50" y="205"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_show_leds" id="uD5kZ5},!PKUSQ--q2-^"><field name="LEDS">`
+        . . # . . 
+        . . . # . 
+        # # # # # 
+        . . . # . 
+        . . # . .
+        `</field><next><block type="DFRobotMaqueenPlus_mototRun" id="^ueAZJ7XOx-+0mOmF8eN"><field name="index">Motors.M2</field><field name="direction">Dir.CW</field><value name="speed"><shadow type="math_number_minmax" id="IZcB0bxkCW4`KJ+LDX^n"><mutation min="0" max="255" label="Speed" precision="0"/><field name="SLIDER">50</field></shadow></value><next><block type="DFRobotMaqueenPlus_mototRun" id="w;6^4twf6PaL~teiam}!"><field name="index">Motors.M1</field><field name="direction">Dir.CCW</field><value name="speed"><shadow type="math_number_minmax" id="Blt9@YPM7=/I2jEV?f;d"><mutation min="0" max="255" label="Speed" precision="0"/><field name="SLIDER">50</field></shadow></value></block></next></block></next></block></statement></block></xml>
